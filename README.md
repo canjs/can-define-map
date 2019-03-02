@@ -5,15 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/canjs/can-define-map/blob/master/LICENSE)
 [![npm version](https://badge.fury.io/js/can-define-map.svg)](https://www.npmjs.com/package/can-define-map)
 [![Travis build status](https://travis-ci.org/canjs/can-define-map.svg?branch=master)](https://travis-ci.org/canjs/can-define-map)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/canjs/can-define-map?branch=master&svg=true)](https://ci.appveyor.com/project/matthewp/can-define-map)
-[![Coverage status](https://coveralls.io/repos/github/canjs/can-define-map/badge.svg?branch=master)](https://coveralls.io/github/canjs/can-define-map?branch=master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/canjs/can-define-map.svg)](https://greenkeeper.io/)
 
 Add observable properties, type conversion, and getter/setter logic to your constructor prototypes.
-
-## Documentation
-
-Read the [can-define-map API docs on CanJS.com](https://canjs.com/doc/can-define-map.html).
 
 ## Changelog
 
