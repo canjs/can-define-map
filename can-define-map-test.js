@@ -4,7 +4,7 @@ var canSymbol = require("can-symbol");
 
 QUnit.module("can-define-map");
 
-QUnit.test("basics", function() {
+QUnit.test("basics", function(assert) {
     var MyMap = DefineMap.extend({
         prop: {},
         aList: {
@@ -16,11 +16,11 @@ QUnit.test("basics", function() {
 
     var map = new MyMap();
 
-    QUnit.equal(map.aList[canSymbol.for("can.isListLike")], true, "Arrays are converted to DefineLists");
+    assert.equal(map.aList[canSymbol.for("can.isListLike")], true, "Arrays are converted to DefineLists");
 
     map.on("prop", function(ev, newVal, oldVal){
-        QUnit.equal(newVal, "BAR");
-        QUnit.equal(oldVal, undefined);
+        assert.equal(newVal, "BAR");
+        assert.equal(oldVal, undefined);
     });
 
     map.prop = "BAR";
